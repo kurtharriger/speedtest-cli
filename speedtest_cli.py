@@ -32,7 +32,7 @@ import threading
 
 # Used for bound_interface
 socket_socket = socket.socket
-socket.setdefaulttimeout(3)
+socket.setdefaulttimeout(10)
 
 try:
     import xml.etree.cElementTree as ET
